@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <include file="$(find baymax)/launch/final_worldviz.launch"/>
+
+  <node
+  	name = "follower"
+  	pkg = "wall_follower"
+  	type = "follow.py" />
+
+</launch>
+
+
